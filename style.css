@@ -3,6 +3,8 @@ body{
     margin: 0;
 }
 
+/* header section */
+
 .header{
     background-color: #1F2937;
     display: flex;
@@ -27,6 +29,8 @@ body{
     color: #e5e7eb;
     text-decoration: none;
  }
+
+/*hero section*/
 
 .hero{
     padding: 50px 120px;
@@ -72,3 +76,43 @@ body{
     text-decoration: none;
     display: inline-block;
 }
+
+/*Card section*/
+
+.card-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-section h1{
+    color: #1F2937;
+    font-weight: extra-bold;
+    font-size: 36px;
+    margin: 3rem;
+}
+.card-row{
+    gap: 3rem;
+    display: flex;
+}
+.cards{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-image{
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+}
+
+.card-text{
+    text-align: center;
+    text-wrap:wrap;
+}
+
