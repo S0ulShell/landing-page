@@ -116,3 +116,31 @@ body{
     text-wrap:wrap;
 }
 
+.quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin:0%;
+}
+
+.author{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+
+}
