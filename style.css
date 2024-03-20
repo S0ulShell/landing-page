@@ -74,7 +74,7 @@ body{
     padding: 8px 20px; 
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    width: 100px;
 }
 
 /*Card section*/
@@ -83,17 +83,19 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
 }
 
 .card-section h1{
     color: #1F2937;
     font-weight: extra-bold;
     font-size: 36px;
-    margin: 3rem;
+
 }
 .card-row{
     gap: 3rem;
     display: flex;
+    margin: 2rem;
 }
 .cards{
     width: 150px;
@@ -115,6 +117,8 @@ body{
     text-align: center;
     text-wrap:wrap;
 }
+
+/* quote section */
 
 .quote-section{
     background-color: #e5e7eb;
