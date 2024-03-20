@@ -192,3 +192,11 @@ body{
     border: 2px solid #f9faf8;
     border-radius: 5px;
 }
+
+.footer{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    color: #f9faf8;
+    padding: 20px;
+}
