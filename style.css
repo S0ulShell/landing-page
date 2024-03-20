@@ -39,19 +39,20 @@ body{
 .hero-text{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     padding:0%;
     width: 400px;
 }
 .hero-text p{
     font-size: 18px;
     color:#e5e7eb;
+    margin: 1 rem;
 }
 
 .hero-text h1{
     font-weight: extra-bold;
     font-size: 48px;
-    color: #f9faf8
+    color: #f9faf8;
+    margin: 0;
 }
 
 .hero-image{
